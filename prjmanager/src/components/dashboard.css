@@ -1,0 +1,163 @@
+body {
+	background-color: rgb(50, 210, 231);
+	color: aliceblue;
+	margin: 0px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 8fr;
+	height: 100vh;
+}
+
+.main {
+	background-color: rgba(2, 2, 14, 0.747);
+}
+
+.sidebar {
+	padding: 15px;
+	font-size: 20px;
+	background-color: rgb(2, 2, 14);
+	display: grid;
+	grid-template-rows: 50px repeat(10, 35px);
+	align-items: center;
+}
+.title-item-text {
+	font-size: 24px;
+}
+.header {
+	background-color: aliceblue;
+	padding: 10px;
+}
+.header-sec-1 {
+	display: grid;
+	grid-template-columns: 50px 700px 50px 100px 200px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.searchbar-icon {
+	padding-left: 50px;
+	width: 40px;
+	height: 40px;
+}
+.search-bar-span {
+	padding-left: 35px;
+	width: 700px;
+}
+#search-bar {
+	padding-left: 10px;
+	border-radius: 10px;
+	height: 35px;
+	width: 700px;
+}
+.noti-icon {
+	width: 34px;
+	height: 34px;
+	padding-left: 90px;
+}
+.profile-icon-span {
+	padding-left: 100px;
+}
+.profile-icon {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 2px solid #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.username {
+	color: black;
+	padding-left: 50px;
+}
+
+.header-sec-2 {
+	display: grid;
+	grid-template-columns: 50px 200px 300px 300px 300px;
+	justify-content: space-between;
+	align-items: center;
+}
+.profile-icon-2 {
+	padding-left: 105px;
+}
+.profile-icon-2-img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 2px solid #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.greeting {
+	color: black;
+}
+#small-greeting {
+	font-size: 8px;
+}
+.header-btn {
+	height: 50px;
+	width: 85px;
+	border-radius: 20px;
+	border: none;
+	background-color: rgb(3, 7, 24);
+	color: aliceblue;
+	font-size: 16px;
+	padding: 15px;
+}
+.new-btn {
+	display: flex;
+	gap: 100px;
+	padding-left: 700px;
+}
+
+.hero {
+	display: grid;
+	grid-template-columns: 800px 300px;
+}
+.myprjs {
+	display: grid;
+	align-content: center;
+}
+.prj-heading {
+	margin: 20px 0px 0px 20px;
+	font-size: 26px;
+	font-weight: 700;
+}
+.project-container {
+	display: grid;
+	grid-template-columns: repeat(3, 320px);
+	margin: 20px;
+	gap: 25px;
+}
+.prj-container {
+	width: 300px;
+	height: 144px;
+	background-color: aliceblue;
+	color: black;
+	border: none;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.prj-title {
+	font-size: 22px;
+	font-weight: 600;
+}
+.content {
+	height: 100px;
+	width: 300px;
+	overflow: hidden;
+}
+
+.icons-container {
+	display: grid;
+	grid-template-columns: repeat(3, 50px);
+	direction: rtl;
+	padding: 12px;
+}
+.icon-btn {
+	width: 35px;
+}
